@@ -1,0 +1,355 @@
+<HTML>
+<HEAD>
+<TITLE> Globals</TITLE>
+
+<META NAME="Generator" CONTENT="KDOC ">
+</HEAD>
+<BODY bgcolor="#ffffff" text="#000000" link="#0000ff" vlink="#000099" alink= "#ffffff">
+<TABLE WIDTH="100%" BORDER="0">
+<TR>
+<TD>
+	<TABLE BORDER="0">
+		<TR><TD valign="top" align="left" cellspacing="10">
+		<h1> Globals</h1>
+		</TD>
+		<TD valign="top" align="right" colspan="1"></TD></TR>
+	</TABLE>
+	<HR>
+	<TABLE BORDER="0">
+		
+	</TABLE>
+	</TD>
+<TD align="right"><TABLE BORDER="0"><TR><TD><small><A HREF="index-long.html">Annotated List</A></small></TD></TR>
+<TR><TD><small><A HREF="header-list.html">Files</A></small></TD></TR>
+<TR><TD><small><A HREF="all-globals.html">Globals</A></small></TD></TR>
+<TR><TD><small><A HREF="hier.html">Hierarchy</A></small></TD></TR>
+<TR><TD><small><A HREF="index.html">Index</A></small></TD></TR>
+</TABLE></TD></TR></TABLE>
+<h3>src/callbacks.h</h3><ul>
+<LI>void
+&nbsp;<b>on_nuevo1_activate</b> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data) 
+</LI>
+<LI>void
+&nbsp;<b>on_abrir1_activate</b> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data) 
+</LI>
+<LI>void
+&nbsp;<b>on_guardar1_activate</b> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data) 
+</LI>
+<LI>void
+&nbsp;<b>on_guardar_como1_activate</b> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data) 
+</LI>
+<LI>void
+&nbsp;<b>on_salir1_activate</b> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data) 
+</LI>
+<LI>void
+&nbsp;<b>on_cortar1_activate</b> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data) 
+</LI>
+<LI>void
+&nbsp;<b>on_copiar1_activate</b> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data) 
+</LI>
+<LI>void
+&nbsp;<b>on_pegar1_activate</b> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data) 
+</LI>
+<LI>void
+&nbsp;<b>on_borrar1_activate</b> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data) 
+</LI>
+<LI>void
+&nbsp;<b>on_about1_activate</b> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data) 
+</LI>
+<LI>void
+&nbsp;<b>on_window1_destroy</b> (GtkObject       *object,
+                                        gpointer         user_data) 
+</LI>
+<LI>gboolean
+&nbsp;<b>on_drawingarea1_configure_event</b> (GtkWidget       *widget,
+                                        GdkEventConfigure *event,
+                                        gpointer         user_data) 
+</LI>
+<LI>gboolean
+&nbsp;<b>on_drawingarea1_expose_event</b> (GtkWidget       *widget,
+                                        GdkEventExpose  *event,
+                                        gpointer         user_data) 
+</LI>
+<LI>gboolean
+&nbsp;<b>on_drawingarea1_motion_notify_event</b> (GtkWidget       *widget,
+                                        GdkEventMotion  *event,
+                                        gpointer         user_data) 
+</LI>
+<LI>gboolean
+&nbsp;<b>on_drawingarea1_button_press_event</b> (GtkWidget       *widget,
+                                        GdkEventButton  *event,
+                                        gpointer         user_data) 
+</LI>
+<LI>void
+&nbsp;<b>on_fileselection1_destroy</b> (GtkObject       *object,
+                                        gpointer         user_data) 
+</LI>
+<LI>void
+&nbsp;<b>on_fileselection1_close</b> (GtkDialog       *dialog,
+                                        gpointer         user_data) 
+</LI>
+<LI>void
+&nbsp;<b>on_fileselection1_response</b> (GtkDialog       *dialog,
+                                        gint             response_id,
+                                        gpointer         user_data) 
+</LI>
+<LI>void
+&nbsp;<b>on_open_button_activate</b> (GtkButton       *button,
+                                        gpointer         user_data) 
+</LI>
+<LI>void
+&nbsp;<b>on_fileselection1_ok_button1_clicked</b> (GtkButton       *button,
+                                        gpointer         user_data) 
+</LI>
+<LI>void
+&nbsp;<b>on_fileselection1_cancel_button1_clicked</b> (GtkButton       *button,
+                                        gpointer         user_data) 
+</LI>
+</ul>
+<h3>src/export_bathymetry_elcom.h</h3><ul>
+<LI>int &nbsp;<b><A HREF="#ref29">export_bathymetry_elcom</A></b> (double *matras, char *archivo,int m, int n) 
+</LI>
+</ul>
+<h3>src/file_plot.h</h3><ul>
+<LI>int &nbsp;<b><A HREF="#ref30">file_plot</A></b> (struct <A HREF="file_data.html">file_data</A> *filedatas, char *archivo, int ancho, int alto) 
+</LI>
+</ul>
+<h3>src/interface.h</h3><ul>
+<LI>GtkWidget* &nbsp;<b>create_window1</b> (void) 
+</LI>
+<LI>GtkWidget* &nbsp;<b>create_fileselection1</b> (void) 
+</LI>
+</ul>
+<h3>src/leer_archivo.h</h3><ul>
+<LI>int &nbsp;<b><A HREF="#ref31">read_file</A></b> (char *filename, struct <A HREF="file_data.html">file_data</A> *filedatas) 
+</LI>
+<LI>char * &nbsp;<b>stripWhiteSpace</b> (char *s) 
+</LI>
+<LI>int &nbsp;<b>read_line</b> (struct <A HREF="file_data.html">file_data</A> *filedatas, FILE *fp) 
+</LI>
+<LI>int &nbsp;<b>read_point</b> (struct <A HREF="file_data.html">file_data</A> *filedatas, FILE *fp) 
+</LI>
+<LI>int &nbsp;<b>read_polyline</b> (struct <A HREF="file_data.html">file_data</A> *filedatas, FILE *fp) 
+</LI>
+<LI>int &nbsp;<b>read_lwpolyline</b> (struct <A HREF="file_data.html">file_data</A> *filedatas, FILE *fp) 
+</LI>
+<LI>int &nbsp;<b>read_circle</b> (struct <A HREF="file_data.html">file_data</A> *filedatas, FILE *fp) 
+</LI>
+<LI>int &nbsp;<b>read_text</b> (struct <A HREF="file_data.html">file_data</A> *filedatas, FILE *fp) 
+</LI>
+<LI>int &nbsp;<b>read_layer</b> (struct <A HREF="file_data.html">file_data</A> *filedatas, FILE *fp) 
+</LI>
+</ul>
+<h3>src/object_admin.h</h3><ul>
+<LI>int &nbsp;<b><A HREF="#ref40">add_line</A></b> (struct <A HREF="file_data.html">file_data</A> *filedatas, double xi, double yi, double zi, double xf, double yf, double zf) 
+</LI>
+<LI>int &nbsp;<b>add_point</b> (struct <A HREF="file_data.html">file_data</A> *filedatas, double xi, double yi, double zi) 
+</LI>
+<LI>int &nbsp;<b>count_lines</b> (struct <A HREF="file_data.html">file_data</A> *filedatas) 
+</LI>
+<LI>int &nbsp;<b>count_points</b> (struct <A HREF="file_data.html">file_data</A> *filedatas) 
+</LI>
+<LI>int &nbsp;<b>domain_box</b> (struct <A HREF="file_data.html">file_data</A> *filedatas,double *xmin, double *xmax, double *ymin, double *ymax, double *zmin, double *zmax) 
+</LI>
+<LI>int &nbsp;<b>export_dxf</b> (struct <A HREF="file_data.html">file_data</A> *filedatas) 
+</LI>
+</ul>
+<h3>src/support.h</h3><ul>
+<LI>GtkWidget*  &nbsp;<b>lookup_widget</b> (GtkWidget       *widget,
+                                        const gchar     *widget_name) 
+</LI>
+<LI>void        &nbsp;<b>add_pixmap_directory</b> (const gchar     *directory) 
+</LI>
+<LI>GtkWidget*  &nbsp;<b>create_pixmap</b> (GtkWidget       *widget,
+                                        const gchar     *filename) 
+</LI>
+<LI>GdkPixbuf*  &nbsp;<b>create_pixbuf</b> (const gchar     *filename) 
+</LI>
+<LI>void        &nbsp;<b>glade_set_atk_action_description</b> (AtkAction       *action,
+                                              const gchar     *action_name,
+                                              const gchar     *description) 
+</LI>
+</ul>
+<h3>src/vec2ras.h</h3><ul>
+<LI>int &nbsp;<b><A HREF="#ref46">vec2ras</A></b> (struct <A HREF="file_data.html">file_data</A> *filedatas,double *matras,int *mmask, int m, int n) 
+</LI>
+<LI>int &nbsp;<b>interpolation_gauss</b> (double *matras,int *mmask, int m, int n) 
+</LI>
+<LI>int &nbsp;<b>vec2ras_line</b> (int x1, int y1, int x2, int y2, double z0,double *matras,int *mmask, int ancho, int alto) 
+</LI>
+<LI>int &nbsp;<b>vec2ras_point</b> (int x1, int y1, double z0,double *matras,int *mmask, int ancho, int alto) 
+</LI>
+<LI>float &nbsp;<b>norm2mat</b> (double *matras, int ancho, int alto) 
+</LI>
+</ul>
+<h3>src/xpm_manager.h</h3><ul>
+<LI>int &nbsp;<b><A HREF="#ref51">export_xpm</A></b> (double *matras, char *archivo, int m, int n) 
+</LI>
+</ul>
+<h2>Global member Documentation</h2>
+<A NAME="on_nuevo1_activate"></A><A NAME="ref1"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void
+&nbsp;<strong>on_nuevo1_activate</strong> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_nuevo1_activate</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_abrir1_activate"></A><A NAME="ref2"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void
+&nbsp;<strong>on_abrir1_activate</strong> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_abrir1_activate</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_guardar1_activate"></A><A NAME="ref3"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void
+&nbsp;<strong>on_guardar1_activate</strong> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_guardar1_activate</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_guardar_como1_activate"></A><A NAME="ref4"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void
+&nbsp;<strong>on_guardar_como1_activate</strong> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_guardar_como1_activate</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_salir1_activate"></A><A NAME="ref5"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void
+&nbsp;<strong>on_salir1_activate</strong> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_salir1_activate</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_cortar1_activate"></A><A NAME="ref6"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void
+&nbsp;<strong>on_cortar1_activate</strong> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_cortar1_activate</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_copiar1_activate"></A><A NAME="ref7"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void
+&nbsp;<strong>on_copiar1_activate</strong> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_copiar1_activate</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_pegar1_activate"></A><A NAME="ref8"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void
+&nbsp;<strong>on_pegar1_activate</strong> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_pegar1_activate</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_borrar1_activate"></A><A NAME="ref9"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void
+&nbsp;<strong>on_borrar1_activate</strong> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_borrar1_activate</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_about1_activate"></A><A NAME="ref10"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void
+&nbsp;<strong>on_about1_activate</strong> (GtkMenuItem     *menuitem,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_about1_activate</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_window1_destroy"></A><A NAME="ref11"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void
+&nbsp;<strong>on_window1_destroy</strong> (GtkObject       *object,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_window1_destroy</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_drawingarea1_configure_event"></A><A NAME="ref12"></A><table width="100%"><tr bgcolor="#eeeeee"><td>gboolean
+&nbsp;<strong>on_drawingarea1_configure_event</strong> (GtkWidget       *widget,
+                                        GdkEventConfigure *event,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_drawingarea1_configure_event</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_drawingarea1_expose_event"></A><A NAME="ref13"></A><table width="100%"><tr bgcolor="#eeeeee"><td>gboolean
+&nbsp;<strong>on_drawingarea1_expose_event</strong> (GtkWidget       *widget,
+                                        GdkEventExpose  *event,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_drawingarea1_expose_event</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_drawingarea1_motion_notify_event"></A><A NAME="ref14"></A><table width="100%"><tr bgcolor="#eeeeee"><td>gboolean
+&nbsp;<strong>on_drawingarea1_motion_notify_event</strong> (GtkWidget       *widget,
+                                        GdkEventMotion  *event,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_drawingarea1_motion_notify_event</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_drawingarea1_button_press_event"></A><A NAME="ref15"></A><table width="100%"><tr bgcolor="#eeeeee"><td>gboolean
+&nbsp;<strong>on_drawingarea1_button_press_event</strong> (GtkWidget       *widget,
+                                        GdkEventButton  *event,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_drawingarea1_button_press_event</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_fileselection1_destroy"></A><A NAME="ref16"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void
+&nbsp;<strong>on_fileselection1_destroy</strong> (GtkObject       *object,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_fileselection1_destroy</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_fileselection1_close"></A><A NAME="ref17"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void
+&nbsp;<strong>on_fileselection1_close</strong> (GtkDialog       *dialog,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_fileselection1_close</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_fileselection1_response"></A><A NAME="ref18"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void
+&nbsp;<strong>on_fileselection1_response</strong> (GtkDialog       *dialog,
+                                        gint             response_id,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_fileselection1_response</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_open_button_activate"></A><A NAME="ref19"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void
+&nbsp;<strong>on_open_button_activate</strong> (GtkButton       *button,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_open_button_activate</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_fileselection1_ok_button1_clicked"></A><A NAME="ref20"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void
+&nbsp;<strong>on_fileselection1_ok_button1_clicked</strong> (GtkButton       *button,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_fileselection1_ok_button1_clicked</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="on_fileselection1_cancel_button1_clicked"></A><A NAME="ref21"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void
+&nbsp;<strong>on_fileselection1_cancel_button1_clicked</strong> (GtkButton       *button,
+                                        gpointer         user_data)
+<br></td><td align="right"><h3><strong>on_fileselection1_cancel_button1_clicked</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___callbacks_h.html">src/callbacks.h</A>&gt;</code></small></p><A NAME="export_bathymetry_elcom"></A><A NAME="ref29"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>export_bathymetry_elcom</strong> (double *matras, char *archivo,int m, int n)
+<br></td><td align="right"><h3><strong>export_bathymetry_elcom</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___export__bathymetry__elcom_h.html">src/export_bathymetry_elcom.h</A>&gt;</code></small></p><p>
+                                                                         *
+   This program is free software; you can redistribute it and/or modify  *
+   it under the terms of the GNU General Public License as published by  *
+   the Free Software Foundation; either version 2 of the License, or     *
+   (at your option) any later version.                                   *
+                                                                         *
+*************************************************************************</p>
+<A NAME="file_plot"></A><A NAME="ref30"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>file_plot</strong> (struct <A HREF="file_data.html">file_data</A> *filedatas, char *archivo, int ancho, int alto)
+<br></td><td align="right"><h3><strong>file_plot</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___file__plot_h.html">src/file_plot.h</A>&gt;</code></small></p><p>
+                                                                         *
+   This program is free software; you can redistribute it and/or modify  *
+   it under the terms of the GNU General Public License as published by  *
+   the Free Software Foundation; either version 2 of the License, or     *
+   (at your option) any later version.                                   *
+                                                                         *
+*************************************************************************</p>
+<A NAME="create_window1"></A><A NAME="ref22"></A><table width="100%"><tr bgcolor="#eeeeee"><td>GtkWidget* &nbsp;<strong>create_window1</strong> (void)
+<br></td><td align="right"><h3><strong>create_window1</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___interface_h.html">src/interface.h</A>&gt;</code></small></p><A NAME="create_fileselection1"></A><A NAME="ref23"></A><table width="100%"><tr bgcolor="#eeeeee"><td>GtkWidget* &nbsp;<strong>create_fileselection1</strong> (void)
+<br></td><td align="right"><h3><strong>create_fileselection1</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___interface_h.html">src/interface.h</A>&gt;</code></small></p><A NAME="read_file"></A><A NAME="ref31"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>read_file</strong> (char *filename, struct <A HREF="file_data.html">file_data</A> *filedatas)
+<br></td><td align="right"><h3><strong>read_file</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___leer__archivo_h.html">src/leer_archivo.h</A>&gt;</code></small></p><p>
+                                                                         *
+   This program is free software; you can redistribute it and/or modify  *
+   it under the terms of the GNU General Public License as published by  *
+   the Free Software Foundation; either version 2 of the License, or     *
+   (at your option) any later version.                                   *
+                                                                         *
+*************************************************************************</p>
+<A NAME="stripWhiteSpace"></A><A NAME="ref32"></A><table width="100%"><tr bgcolor="#eeeeee"><td>char * &nbsp;<strong>stripWhiteSpace</strong> (char *s)
+<br></td><td align="right"><h3><strong>stripWhiteSpace</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___leer__archivo_h.html">src/leer_archivo.h</A>&gt;</code></small></p><A NAME="read_line"></A><A NAME="ref33"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>read_line</strong> (struct <A HREF="file_data.html">file_data</A> *filedatas, FILE *fp)
+<br></td><td align="right"><h3><strong>read_line</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___leer__archivo_h.html">src/leer_archivo.h</A>&gt;</code></small></p><A NAME="read_point"></A><A NAME="ref34"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>read_point</strong> (struct <A HREF="file_data.html">file_data</A> *filedatas, FILE *fp)
+<br></td><td align="right"><h3><strong>read_point</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___leer__archivo_h.html">src/leer_archivo.h</A>&gt;</code></small></p><A NAME="read_polyline"></A><A NAME="ref35"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>read_polyline</strong> (struct <A HREF="file_data.html">file_data</A> *filedatas, FILE *fp)
+<br></td><td align="right"><h3><strong>read_polyline</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___leer__archivo_h.html">src/leer_archivo.h</A>&gt;</code></small></p><A NAME="read_lwpolyline"></A><A NAME="ref36"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>read_lwpolyline</strong> (struct <A HREF="file_data.html">file_data</A> *filedatas, FILE *fp)
+<br></td><td align="right"><h3><strong>read_lwpolyline</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___leer__archivo_h.html">src/leer_archivo.h</A>&gt;</code></small></p><A NAME="read_circle"></A><A NAME="ref37"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>read_circle</strong> (struct <A HREF="file_data.html">file_data</A> *filedatas, FILE *fp)
+<br></td><td align="right"><h3><strong>read_circle</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___leer__archivo_h.html">src/leer_archivo.h</A>&gt;</code></small></p><A NAME="read_text"></A><A NAME="ref38"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>read_text</strong> (struct <A HREF="file_data.html">file_data</A> *filedatas, FILE *fp)
+<br></td><td align="right"><h3><strong>read_text</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___leer__archivo_h.html">src/leer_archivo.h</A>&gt;</code></small></p><A NAME="read_layer"></A><A NAME="ref39"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>read_layer</strong> (struct <A HREF="file_data.html">file_data</A> *filedatas, FILE *fp)
+<br></td><td align="right"><h3><strong>read_layer</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___leer__archivo_h.html">src/leer_archivo.h</A>&gt;</code></small></p><A NAME="add_line"></A><A NAME="ref40"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>add_line</strong> (struct <A HREF="file_data.html">file_data</A> *filedatas, double xi, double yi, double zi, double xf, double yf, double zf)
+<br></td><td align="right"><h3><strong>add_line</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___object__admin_h.html">src/object_admin.h</A>&gt;</code></small></p><p>
+                                                                         *
+   This program is free software; you can redistribute it and/or modify  *
+   it under the terms of the GNU General Public License as published by  *
+   the Free Software Foundation; either version 2 of the License, or     *
+   (at your option) any later version.                                   *
+                                                                         *
+*************************************************************************</p>
+<A NAME="add_point"></A><A NAME="ref41"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>add_point</strong> (struct <A HREF="file_data.html">file_data</A> *filedatas, double xi, double yi, double zi)
+<br></td><td align="right"><h3><strong>add_point</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___object__admin_h.html">src/object_admin.h</A>&gt;</code></small></p><A NAME="count_lines"></A><A NAME="ref42"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>count_lines</strong> (struct <A HREF="file_data.html">file_data</A> *filedatas)
+<br></td><td align="right"><h3><strong>count_lines</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___object__admin_h.html">src/object_admin.h</A>&gt;</code></small></p><A NAME="count_points"></A><A NAME="ref43"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>count_points</strong> (struct <A HREF="file_data.html">file_data</A> *filedatas)
+<br></td><td align="right"><h3><strong>count_points</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___object__admin_h.html">src/object_admin.h</A>&gt;</code></small></p><A NAME="domain_box"></A><A NAME="ref44"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>domain_box</strong> (struct <A HREF="file_data.html">file_data</A> *filedatas,double *xmin, double *xmax, double *ymin, double *ymax, double *zmin, double *zmax)
+<br></td><td align="right"><h3><strong>domain_box</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___object__admin_h.html">src/object_admin.h</A>&gt;</code></small></p><A NAME="export_dxf"></A><A NAME="ref45"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>export_dxf</strong> (struct <A HREF="file_data.html">file_data</A> *filedatas)
+<br></td><td align="right"><h3><strong>export_dxf</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___object__admin_h.html">src/object_admin.h</A>&gt;</code></small></p><A NAME="lookup_widget"></A><A NAME="ref24"></A><table width="100%"><tr bgcolor="#eeeeee"><td>GtkWidget*  &nbsp;<strong>lookup_widget</strong> (GtkWidget       *widget,
+                                        const gchar     *widget_name)
+<br></td><td align="right"><h3><strong>lookup_widget</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___support_h.html">src/support.h</A>&gt;</code></small></p><A NAME="add_pixmap_directory"></A><A NAME="ref25"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void        &nbsp;<strong>add_pixmap_directory</strong> (const gchar     *directory)
+<br></td><td align="right"><h3><strong>add_pixmap_directory</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___support_h.html">src/support.h</A>&gt;</code></small></p><A NAME="create_pixmap"></A><A NAME="ref26"></A><table width="100%"><tr bgcolor="#eeeeee"><td>GtkWidget*  &nbsp;<strong>create_pixmap</strong> (GtkWidget       *widget,
+                                        const gchar     *filename)
+<br></td><td align="right"><h3><strong>create_pixmap</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___support_h.html">src/support.h</A>&gt;</code></small></p><A NAME="create_pixbuf"></A><A NAME="ref27"></A><table width="100%"><tr bgcolor="#eeeeee"><td>GdkPixbuf*  &nbsp;<strong>create_pixbuf</strong> (const gchar     *filename)
+<br></td><td align="right"><h3><strong>create_pixbuf</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___support_h.html">src/support.h</A>&gt;</code></small></p><A NAME="glade_set_atk_action_description"></A><A NAME="ref28"></A><table width="100%"><tr bgcolor="#eeeeee"><td>void        &nbsp;<strong>glade_set_atk_action_description</strong> (AtkAction       *action,
+                                              const gchar     *action_name,
+                                              const gchar     *description)
+<br></td><td align="right"><h3><strong>glade_set_atk_action_description</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___support_h.html">src/support.h</A>&gt;</code></small></p><A NAME="vec2ras"></A><A NAME="ref46"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>vec2ras</strong> (struct <A HREF="file_data.html">file_data</A> *filedatas,double *matras,int *mmask, int m, int n)
+<br></td><td align="right"><h3><strong>vec2ras</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___vec2ras_h.html">src/vec2ras.h</A>&gt;</code></small></p><p>
+                                                                         *
+   This program is free software; you can redistribute it and/or modify  *
+   it under the terms of the GNU General Public License as published by  *
+   the Free Software Foundation; either version 2 of the License, or     *
+   (at your option) any later version.                                   *
+                                                                         *
+*************************************************************************</p>
+<A NAME="interpolation_gauss"></A><A NAME="ref47"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>interpolation_gauss</strong> (double *matras,int *mmask, int m, int n)
+<br></td><td align="right"><h3><strong>interpolation_gauss</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___vec2ras_h.html">src/vec2ras.h</A>&gt;</code></small></p><A NAME="vec2ras_line"></A><A NAME="ref48"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>vec2ras_line</strong> (int x1, int y1, int x2, int y2, double z0,double *matras,int *mmask, int ancho, int alto)
+<br></td><td align="right"><h3><strong>vec2ras_line</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___vec2ras_h.html">src/vec2ras.h</A>&gt;</code></small></p><A NAME="vec2ras_point"></A><A NAME="ref49"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>vec2ras_point</strong> (int x1, int y1, double z0,double *matras,int *mmask, int ancho, int alto)
+<br></td><td align="right"><h3><strong>vec2ras_point</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___vec2ras_h.html">src/vec2ras.h</A>&gt;</code></small></p><A NAME="norm2mat"></A><A NAME="ref50"></A><table width="100%"><tr bgcolor="#eeeeee"><td>float &nbsp;<strong>norm2mat</strong> (double *matras, int ancho, int alto)
+<br></td><td align="right"><h3><strong>norm2mat</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___vec2ras_h.html">src/vec2ras.h</A>&gt;</code></small></p><A NAME="export_xpm"></A><A NAME="ref51"></A><table width="100%"><tr bgcolor="#eeeeee"><td>int &nbsp;<strong>export_xpm</strong> (double *matras, char *archivo, int m, int n)
+<br></td><td align="right"><h3><strong>export_xpm</strong></h3></td></tr></table><p></p><p><small><code>#include &lt;<A HREF="src___xpm__manager_h.html">src/xpm_manager.h</A>&gt;</code></small></p><p>
+                                                                         *
+   This program is free software; you can redistribute it and/or modify  *
+   it under the terms of the GNU General Public License as published by  *
+   the Free Software Foundation; either version 2 of the License, or     *
+   (at your option) any later version.                                   *
+                                                                         *
+*************************************************************************</p>
+<HR>
+	<table>
+	<tr><td><small>Generated by: root on clepsidra.unalmed.edu.co on Mon Jun  9 15:13:44 2003, using kdoc 2.0a54.</small></td></tr>
+	</table>
+</BODY>
+</HTML>
